@@ -3,7 +3,7 @@ project(test_glfw)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(test_glfw src/gl3w.c src/main.cpp)
+add_executable(test_glfw src/gl3w.c src/LoadShaders.cpp src/main.cpp)
 
 target_include_directories(test_glfw PRIVATE include)
 
